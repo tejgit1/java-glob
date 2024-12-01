@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Timetable</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weekly Timetable</h1>
+
+        <label for="daySelect">Select a Day:</label>
+        <select id="daySelect">
+            <option value="mon">Monday</option>
+            <option value="tue">Tuesday</option>
+            <option value="wed">Wednesday</option>
+            <option value="thu">Thursday</option>
+            <option value="fri">Friday</option>
+            <option value="sat">Saturday</option>
+        </select>
+
+        <div id="timetable">
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Weekly Timetable</title>
+                <link rel="stylesheet" href="styles.css">
+                <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+            </head>
+
+            <body>
+                <div class="container">
+
+                    <h2>Add Timetable Entry</h2>
+                    <div class="entry-form">
+                        <input type="text" id="timeInput" placeholder="Time (e.g., 9:00 AM)" required>
+                        <input type="text" id="subjectInput" placeholder="Subject" required>
+                        <input type="text" id="teacherInput" placeholder="Teacher" required>
+                        <button id="addButton">Add Entry</button>
+                    </div>
+
+                    <div id="timetable">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Subject</th>
+                                    <th>Teacher</th>
+                                </tr>
+                            </thead>
+                            <tbody id="timetable-body">
+                                <!-- Timetable will be populated here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <script src="script.js"></script>
+            </body>
+
+            </html>
+                <tbody id="timetable-body">
+                    <!-- Timetable will be populated here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="output"></div>
+    </div>
+    <script src="https://cdn.rawgit.com/naptha/tesseract.js/2.1.1/dist/tesseract.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
